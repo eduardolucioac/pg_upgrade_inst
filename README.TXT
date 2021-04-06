@@ -6,7 +6,7 @@ PostgreSQL 9.4 (it must be installed on the destination server).
 
 The idea of this script is to allow the user to update PostgreSQL data in a new environment
 without having to install an old version of it or when this is not possible, or even
-when the export("pg_dump")/importing("pg_restore") data failed.
+when the export ("pg_dump")/importing ("pg_restore") data failed.
 
 This script also synthesizes several solutions found to avoid problems with the use
 of the "pg_upgrade" binary.
